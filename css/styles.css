@@ -1,0 +1,230 @@
+.container {
+    display: flex;
+    background-color: #f8f8f7f1;
+    flex-flow: row;
+    margin: 0 auto;
+    width: 98% !important;
+    max-width: 1100px;
+    min-width: 320px;
+}
+
+.container2 {
+    display: flex;
+    background-color: #f8f8f7f1;
+    flex-flow: row;
+    margin: 0 auto;
+    width: 98% !important;
+    max-width: 1100px;
+    min-width: 320px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -300px;
+}
+
+.container3 {
+    display: flex;
+    background-color: #f8f8f7f1;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 70px;
+    width: 98% !important;
+    max-width: 1100px;
+    min-width: 320px;
+    align-items: center;   
+}
+
+.container4 {
+    display: flex;
+    background-color: #f8f8f7f1;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 70px;
+    width: 98% !important;
+    max-width: 1100px;
+    min-width: 320px;
+    align-items: center;   
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #f2fae9;
+    margin: 0 auto;
+    width: 98% !important;
+    max-width: 1100px;
+    min-width: 320px;
+}
+
+#logo {
+    float: left;
+}
+
+#menu {
+    width: 40%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px 0px 0px;
+    padding: 0;
+}
+
+.texto1 {
+    padding-right: 10%;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+.botao {
+    background-color: #FFF;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    color: #158de2;
+    font-weight: bold;
+
+}
+
+.circulo {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-left: -70px;
+    shape-outside: circle();
+    clip-path: circle();
+    background: lightblue;
+}
+
+.circulo2 {
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    margin-right: -70px;
+    border-radius: 50%;
+    border: 2px solid lightblue;
+}
+
+.localizacao, .servicos, .segmentos {
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0;
+}
+
+.local, .serve {
+    width: 850px;
+    height: 60px;
+    margin-left: 105px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.mapouter{
+    background-color: rgb(228, 228, 228);
+    position: relative;
+    text-align: right;
+    width: 760px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+    z-index: 3;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;   
+    width: 760px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 760px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.stilo_blocos{
+    width: 800px;
+    padding-top: 15px; 
+    display: flex; 
+    justify-content:center;
+}
+
+.blocos{
+    width: 170px; 
+    height: 250px; 
+    background-color: #0074FF; 
+    color: #FFF;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.p_bloco{
+    font-size: 4.2rem; 
+    font-family: 'Montserrat', sans-serif; 
+    color: rgba(98, 97, 97, 0.5);
+    margin: 3px;
+}
+
+.p_bloco_tit{
+    font-size: 1.5rem;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -36px;
+}
+
+.p_bloco_txt{
+    color: rgba(231, 233, 235, 0.7); 
+    font-size:x-small; 
+    padding:0 13px 0 13px;
+}
+
+
+/* estilo bloco 2 */
+.stilo_blocos2{
+    width: 800px;
+    padding-top: 8px; 
+    display: flex; 
+    justify-content:space-around;
+
+}
+
+.blocos2{
+    width: 250px; 
+    height: 200px; 
+    color: #000;
+}
+
+.p_bloco2{
+    font-size: 4.2rem; 
+    font-family: 'Montserrat', sans-serif; 
+    color: #000;
+    margin: 3px;
+}
+
+.p_bloco_tit2{
+    font-size: 0.85rem;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -30px;
+    font-weight: bold;
+    
+}
+
+.p_bloco_txt2{
+    color: #000; 
+    font-size:x-small; 
+    padding:0 25px 0 25px;
+}
